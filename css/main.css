@@ -1,0 +1,155 @@
+/*
+* {
+    border: 1px solid red !important;
+}
+*/
+body, html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.grid {
+    margin: auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.project{
+    display: block;
+}
+
+.right{
+    text-align: right;
+}
+
+
+
+@media screen and (max-width: 650px){
+    .project{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /*display: flex;
+        flex-wrap: wrap;*/
+        width: 100%;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 651px) and (max-width: 960px){
+    .project{
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+        /*display: flex;
+        flex-wrap: wrap;*/
+        width: 50%;
+        text-align: center;
+        padding-bottom: 35px;
+    }
+}
+
+h1{
+    color: #747704;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+h2{
+    color: #bcbbbb;
+    font-weight: 400;
+    margin-left: auto;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+h3{
+    color: #747704;
+    text-transform: uppercase;
+}
+h4{
+    color: #747704;
+    text-align: right;
+}
+a{
+    color: #bcbbbb;
+    text-decoration: none;
+    font-size: 12px;
+}
+hr{
+    height: 4px;
+    background-color: #bcbbbb;
+    border-width: 0;
+}
+
